@@ -2,14 +2,12 @@ const colors = require('./colors')
 
 module.exports = {
   mode: 'jit',
-  purge: {
-    content: [
-      './components/**/*.{js,vue,ts}',
-      './layouts/**/*.vue',
-      './pages/**/*.vue',
-      './plugins/**/*.{js,ts}',
-    ],
-  },
+  content: [
+    './components/**/*.{js,vue,ts}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+  ],
   theme: {
     extend: {
       colors: {
